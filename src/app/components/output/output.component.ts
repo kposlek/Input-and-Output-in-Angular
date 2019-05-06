@@ -4,4 +4,8 @@ import { Component } from '@angular/core';
   selector: 'output',
   templateUrl: './output.component.html'
 })
-export class OutputComponent {}
+export class OutputComponent {
+  clicking(output: string) {
+    console.log('It works!');
+  }
+}
