@@ -9,4 +9,7 @@ export class ParentComponent {
   commingText(message: string) {
     this.text = message;
   }
+  normalText(typedText: string) {
+    return this.text;
+  }
 }
