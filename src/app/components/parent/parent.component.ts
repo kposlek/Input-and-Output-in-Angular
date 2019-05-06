@@ -12,4 +12,7 @@ export class ParentComponent {
   normalText(typedText: string) {
     return this.text;
   }
+  upperCaseText(typedText: string) {
+    return this.text.toUpperCase();
+  }
 }

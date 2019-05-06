@@ -1,5 +1,8 @@
 <p>It works ;)</p>
 <output (sendText)="commingText($event)"></output>
 <inputcomponent [way]="'normal text'" [newText]="normalText()"></inputcomponent>
-<inputcomponent></inputcomponent>
+<inputcomponent
+  [way]="'upperCase text'"
+  [newText]="upperCaseText()"
+></inputcomponent>
 <inputcomponent></inputcomponent>
