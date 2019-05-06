@@ -4,4 +4,9 @@ import { Component } from '@angular/core';
   selector: 'parent',
   templateUrl: './parent.component.html'
 })
-export class ParentComponent {}
+export class ParentComponent {
+  text: string = '';
+  commingText(message: string) {
+    this.text = message;
+  }
+}
