@@ -15,4 +15,10 @@ export class ParentComponent {
   upperCaseText(typedText: string) {
     return this.text.toUpperCase();
   }
+  reverseText(typedText: string) {
+    return this.text
+      .split('')
+      .reverse()
+      .join('');
+  }
 }
